@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ClassePessoa
 {
-    class PessoaFisica : Pessoa
+    public class PessoaFisica : Pessoa
     {
         private string cpf;
 
