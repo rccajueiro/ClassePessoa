@@ -9,7 +9,7 @@ namespace ClassePessoa
         private int codigo;
         private string nome;
 
-        public int Codigo { get; set; }
-        public string Nome { get; set; }
+        public int Codigo { get {return codigo; } set { codigo = value; } }
+        public string Nome { get { return nome; } set { nome = value; } }
     }
 }

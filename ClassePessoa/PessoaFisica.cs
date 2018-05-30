@@ -8,13 +8,13 @@ namespace ClassePessoa
     {
         private string cpf;
 
-        public string Cpf { get; set; }
+        public string Cpf { get { return cpf; } set { cpf = value; } }
 
-        public PessoaFisica(int Codigo, string Nome, string Cpf)
+        public PessoaFisica(int codigo, string nome, string cpf)
         {
-            this.Codigo = Codigo;
-            this.Nome = Nome;
-            this.Cpf = Cpf;
+            Codigo = codigo;
+            Nome = nome;
+            Cpf = cpf;
         }
     }
 }
